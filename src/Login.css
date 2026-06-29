@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-page{
+    display: flex;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.login-left{
+    flex: 1;
+    background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay{
+    background: rgba(0,0,0,.65);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: centre;
+    align-items: center;
+    color: white;
+    padding: 40px;
+}
+
+.overlay h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+.overlay p{
+    font-size: 18px;
+    max-width: 450px;
+    line-height: 1.8;
+
+}
+
+.login-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f7fa;
+}
+
+.login-card{
+    width: 420px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.login-card h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0F172A;
+}
+
+.input-group{
+    margin: 20px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+
+}
+
+.input-group input{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+.input-group input:focus{
+    border-color: #06B6D4;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.options a{
+    text-decoration: none;
+    color: #06B6D4;
+}
+
+
+button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #06B6D4;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+button:hover{
+    background: #0891b2;
+}
+
+.signup-link{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.signup-link a{
+    color: #06B6D4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media(max-width:900px){
+    .login-page{
+        flex-direction: column;
+    }
+
+    .login-left{
+        height: 300px;
+    }
+
+    .login-card{
+        width: 90%;
+        margin:40px 0;
+    }
+
+    .overlay h1{
+        font-size:35px;
+    }
+}

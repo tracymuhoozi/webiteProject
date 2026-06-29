@@ -1,0 +1,217 @@
+.about-section{
+    padding: 4rem 2rem;
+    background: #ced4da;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
+.about-container{
+    max-width: 1280px;
+    margin:0 auto;
+
+}
+.about-header{
+    align-items: center;
+    text-align: center;
+
+}
+.about-badge{
+    display: block;
+    background: rgba(rgb(12, 4, 4));
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.4rem 1rem;
+    border-radius: 40px;
+    margin-bottom: 1rem;
+
+
+}
+.about-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 100;
+
+}
+.subtitle{
+    text-align: center;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: black;
+}
+.about-text >h3{
+    text-align: center;
+    padding:10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 5;
+    margin-bottom: 1rem;
+    color: navy;
+
+}
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.about-text >p{
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+
+}
+.mission >h3{
+    text-align: center;
+    padding:10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 5;
+    margin-bottom: 1rem;
+    color: navy;
+
+}
+.mission >p{
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+
+}
+.vision >h3{
+    text-align: center;
+    padding:10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 5;
+    margin-bottom: 1rem;
+    color: navy;
+
+
+}
+
+.vision >p{
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 2px
+
+}
+.about-image{
+    width: 100%;
+    border-radius: 28px;
+    transition: transform 0.3s;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    cursor: pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.stats-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin-bottom: 5rem;
+    padding: 90px;
+    /* height: 90px; */
+    border-radius: 40px;
+    background: whitesmoke;
+    height: 250px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.statcard{
+    text-align: center;
+    height: 100px;
+}
+.statnumber{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+.statlabel{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #212529;
+    padding: 40px;
+    /* padding-top: 40px; */
+    /* margin-top: 30px; */
+}
+.values-section{
+    align-items: center;
+    text-align: center;
+
+}
+.values-title{
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+    color: #212529;
+    padding: 40px;
+
+    
+
+}
+
+.values-title >h2{
+    text-align: center;
+    color: navy;
+}
+.values-grid{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4,1fr);
+}
+.value-card{
+    background: whitesmoke;
+    padding: 2rem 1rem;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+    border-radius: 10px;
+    height: 200px;
+}
+.value-card >h4{
+    text-align: center;
+    padding:10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 5;
+    margin-bottom: 1rem;
+    color: navy;
+
+
+}
+.value-card >p{
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 2px
+
+}
+
+.about-image img{
+    width:100%;
+    max-width:500px;
+    height:400px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+    transition:.4s;
+}
+
+.about-image img:hover{
+    transform:scale(1.03);
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.header{
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin:0 auto;
+    padding: 0 2rem;
+    font-style: italic;
+}
+
+.headercontainer{
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between;
+    height: 80px; */
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:95px;
+}
+
+.stratcomlogo{
+    width:75px;
+    height:75px;
+    object-fit:contain;
+}
+.brand{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logotext{
+    /* font-size: 1.8rem;
+    font-weight: 700; */
+    background-clip: text;
+    /* color: orangered; */
+    letter-spacing: 0.5px;
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff5a00;
+    line-height: 1;
+}
+
+.logotext2{
+    /* font-size: 0.8rem; */
+    /* color: #555; */
+    /* margin-top: 3px; */
+    /* letter-spacing: 1px; */
+
+    font-size: .9rem;
+    color: #666;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.navlist{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+
+.navlink{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #2c3e4e;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

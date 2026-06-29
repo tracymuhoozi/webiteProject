@@ -1,0 +1,122 @@
+.services-section{
+    padding: 5rem 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135deg,#f8fafc 100%);
+}
+
+.services-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.services-header{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.services-badge{
+    display: inline-block;
+    background:rgba(30, 111, 159, 0.1);
+    color: #1971c2;
+    padding: 1.2rem;
+    font-size: 1 rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    margin-bottom: 1rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.services-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1971c2;
+}
+
+.services-subtitle{
+    font-size: 1.1rem;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.services-grid{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(280px 1fr));
+    gap: 2rem;
+}
+.service-card{
+    background: rgba(255, 255, 255,0,0);
+    border-radius: 20px;
+    padding: 2rem 1rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+}
+
+.service-card :hover{
+    transform: translate(-8px);
+    background: whitesmoke;
+    border-color: #4dabf7;
+}
+
+.service-icon{
+    font-size: 3rem;
+    margin-bottom: 5px;
+    display: inline-block;
+
+}
+.service-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1971c2;
+    margin-bottom: 1.5rem;
+
+}
+.service-description{
+    font-size: 1.1rem;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 1.2rem;
+    align-items: center;
+
+}
+
+.service-features{
+    list-style: none;
+    padding: 0;
+}
+
+.service-features >li{
+    color: #212529;
+    font-size: 0.8rem;
+    padding: 0.4;
+    align-items: center;
+    gap: 0.5rem;
+    display: flex;
+}
+.service-features li::before{
+    content: "✔";
+    font-weight: 900;
+    
+
+}
+.service-button{
+    padding:12px;
+    margin-top: 12px;
+    width: 150px;
+    background: #1971c2;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    /* align-items: end; */
+}
+.service-button :hover{
+    background-color: #1971c2;
+    color: #ffffff;
+}
