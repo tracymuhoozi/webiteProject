@@ -53,7 +53,8 @@
     background: white;
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    /* box-shadow: 0 10px 30px rgba(0,0,0,.1); */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .login-card h2{
     text-align: center;
@@ -97,7 +98,7 @@
 
 
 button{
-    width: 100%;
+    /* width: 100%;
     padding: 15px;
     border: none;
     background: #06B6D4;
@@ -105,7 +106,18 @@ button{
     font-size: 17px;
     border-radius: 8px;
     cursor: pointer;
-    transition: 3s;
+    transition: 3s; */
+
+
+    width: 90%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #339af0;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1.5;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;;
 }
 
 button:hover{
@@ -114,13 +126,16 @@ button:hover{
 
 .signup-link{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 30px;
+    color: #06B6D4;
+    padding: 20px;
 }
 
 .signup-link a{
     color: #06B6D4;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 @media(max-width:900px){

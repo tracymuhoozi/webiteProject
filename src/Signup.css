@@ -14,10 +14,89 @@
     background: whitesmoke;
     padding:2.5rem 2.2rem;
     border-radius: 32px;
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
     cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.signup-header{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+
 }
 
-.signup-header{
-    
+.signup-header >h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: gray;
+    margin: 0.5rem 0.2rem;
+
+
+}
+
+.signup-header >p{
+    color: black;
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1.6;
+}
+
+.signup-brand >a{
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    color: #339af0;
+    border-bottom: 8px;
+    text-decoration: none;
+
+}
+.signup-form-group{
+    margin-bottom: 1.5rem;
+}
+
+.signup-form-group label{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:#868e96;
+    margin-bottom: 0.5rem;
+    text-align: left;
+
+}
+
+.signup-form-group >input{
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+
+}
+
+.signup-button{
+    width: 90%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #339af0;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1.5;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;;
+}
+.signup-switch{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #339af0;
+}
+
+.signup-switch >a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
 }
