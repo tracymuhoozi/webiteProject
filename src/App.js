@@ -11,6 +11,7 @@ import Signup from './Signup';
 import Footer from './Footer';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -28,10 +29,12 @@ function App() {
                   <Route path='/services' element={<Services/>}/>
                   <Route path='/login' element={<Login/>}/>
                   <Route path='/signup' element={<Signup/>}/>
+                  
                 </Routes>
 
                 </div>
                 <Footer/>
+              
                 
               </>
             }/>
