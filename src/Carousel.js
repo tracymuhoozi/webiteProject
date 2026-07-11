@@ -1,39 +1,40 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './Carousel.css';
+import { Link } from "react-router-dom";
 
 const Carousel = ({ slides, autoPlayInterval = 5000 }) => {
   // Default slides using your images
   const defaultSlides = [
   {
-    image: "https://plus.unsplash.com/premium_photo-1770382881955-1436023dd952?w=1200",
+    image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1600&q=80",
     caption: {
-      title: "Empowering Businesses Through Technology",
+      title: "Save Today. Shine Tomorrow.",
       description:
-        "We provide innovative ICT solutions, software development, networking, cybersecurity and digital transformation."
+        "Every small saving is a step toward achieving your dreams. Start your financial journey with confidence."
     }
   },
   {
-    image: "https://images.unsplash.com/photo-1659080926109-2bfa668330c0?w=1200",
+    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80",
     caption: {
-      title: "Professional Computer Networking",
+      title: "Growing Wealth, Together",
       description:
-        "Reliable network installation, maintenance and enterprise connectivity solutions."
+        "Enjoy flexible savings plans, affordable loans, and investment opportunities designed to help you prosper"
     }
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1682145181120-73cfdfc8a36d?w=1200",
+    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80",
     caption: {
-      title: "Software & Website Development",
+      title: "Empowering Communities Through Unity",
       description:
-        "Building modern websites and business systems that help organizations grow."
+        "When we save, support, and grow together, every member has the opportunity to succeed."
     }
   },
   {
-    image: "https://images.unsplash.com/photo-1546124404-9e7e3cac2ec1?w=1200",
+    image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1600&q=80",
     caption: {
-      title: "Training Future ICT Professionals",
+      title: "Your Future Begins Here",
       description:
-        "Equipping students and professionals with practical digital skills."
+        "Join thousands of members creating brighter financial futures through smart saving and responsible borrowing."
     }
   }
 ];  const effectiveSlides = slides && slides.length > 0 ? slides : defaultSlides;
@@ -85,7 +86,7 @@ const Carousel = ({ slides, autoPlayInterval = 5000 }) => {
             {slide.caption && (
   <div className="carousel-caption">
     <span className="welcome-badge">
-      Welcome to Stratcom Communications
+      Welcome to ShineUp Sacco
     </span>
 
     <h1>{slide.caption.title}</h1>
@@ -93,13 +94,20 @@ const Carousel = ({ slides, autoPlayInterval = 5000 }) => {
     <p>{slide.caption.description}</p>
 
     <div className="hero-buttons">
-      <button className="primary-btn">
-        Explore Services
-      </button>
 
-      <button className="secondary-btn">
-        Contact Us
-      </button>
+      <Link to="/services" className='primary-btn'>
+
+          explore services
+        
+      </Link>
+      
+      <Link to="/apply" className='secondary-btn'>
+            Apply now
+    
+      </Link>
+
+
+      
     </div>
   </div>
 )}

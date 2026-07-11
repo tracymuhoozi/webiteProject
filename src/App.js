@@ -8,7 +8,11 @@ import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login'
 import Signup from './Signup';
+import Contactus from './Contactus';
 import Footer from './Footer';
+import Founders from './Founders';
+import AdminDashboard from "./AdminDashboard";
+import Apply from './Apply';
 
 
 
@@ -27,15 +31,18 @@ function App() {
                   <Route path='/' element={<Home/>}/>
                   <Route path='/aboutus' element={<Aboutus/>}/>
                   <Route path='/services' element={<Services/>}/>
+                  <Route path='/contactus' element={<Contactus/>}/>
+                  <Route path='/founders' element={<Founders/>}/>
                   <Route path='/login' element={<Login/>}/>
                   <Route path='/signup' element={<Signup/>}/>
+                  <Route path="/admin" element={<AdminDashboard />} />
+                  <Route path="/apply" element={<Apply />} />
                   
                 </Routes>
 
                 </div>
                 <Footer/>
               
-                
               </>
             }/>
             

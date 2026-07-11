@@ -6,8 +6,8 @@ function Footer() {
     <footer className='footer'>
       <div className='footer-container'>
         <div className='footer-section'>
-          <h2>Stratcom</h2>
-          <p>Delivering innovative ICT solutions, software development, networking, cyber security and didgital transformation services</p>
+          <h2>ShineUp</h2>
+          <p>At Shine Up SACCO, we are committed to empowering our members through secure savings, affordable loans, and innovative financial solutions that inspire growth and prosperity.</p>
 
         </div>
         <div className='footer-section'>
@@ -15,6 +15,7 @@ function Footer() {
           <a href="/">Home</a>
           <a href="/aboutus">Aboutus</a>
           <a href="/services">Services</a>
+          <a href="/contactus">Contactus</a>
           <a href="/login">Login</a>
           <a href="/signup">Signup</a>
 
@@ -23,7 +24,7 @@ function Footer() {
           <h3>Contact us</h3>
           <p> Kampala Uganda</p>
           <p> 📞 Tel:+256 100 7001234</p>
-          <p> @ info@stratcom.com</p>
+          <p> ✉️info@shineup.com</p>
 
         </div>
       </div>

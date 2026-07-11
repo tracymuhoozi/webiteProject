@@ -4,16 +4,16 @@ import "./Aboutus.css"
 function Aboutus() {
 
     const values =[
-        {title: 'Innovation', desc:'Pushing boundaries with cutting edgesoluions'},
-        {title: 'Excellence', desc:'Delivering quality in every service we provide'},
-        {title: 'Integrity', desc:'Building Trust through Transparency and Honesty'},
-        {title: 'Global impact', desc:'Empowering proffessionals worldwide'}
+        {title: 'Trust', desc:'We build lasting relationships by safeguarding our members interests and delivering reliable financial solutions.'},
+        {title: 'Excellence', desc:'We are committed to providing high-quality services that exceed our members expectations.'},
+        {title: 'Integrity', desc:'We uphold honesty, transparency, and accountability in every service we provide.'},
+        {title: 'Team work', desc:'We believe that collaboration and mutual support are the foundation of shared success and sustainable growth.'}
     ];
 
     const stats = [
-        {number:'5+', label:'Years of excellence'},
-        {number:'2k+', label:'Students trained'},
-        {number:'50+', label:'Certified Instructors'},
+        {number:'5+', label:'Years of Service'},
+        {number:'2k+', label:'Active Members'},
+        {number:'50+', label:'Loans Issued'},
         {number:'98%', label:'success Rate'}
     ];
     return (
@@ -22,28 +22,32 @@ function Aboutus() {
         <div className='about-container'>
             <div className='about-header'>
                 <span className='about-badge'>Our story</span>
-                <h1 className='about-title'>About Stratcom</h1>
-                <p className='subtitle'>Empowering the next generation of Tech proffessionals in Africa</p>
+                <h1 className='about-title'>About ShineUP</h1>
+                <p className='subtitle'>Learn more about our journey, our values, and our commitment to helping members achieve financial security and long-term success.</p>
 
             </div>
             <div className='about-content'>
                 <div className='about-text'>
                     <h3>Who we are</h3>
-                    <p>At Stratcom, we transform ideas into poweful digital
-                        experience by combining creativity,technical expertise  
-                        and commitment to excellence. whether developing websites, or
-                        applications or custom software, we are dedicated to serve you
+                    <p>Shine Up SACCO is a member-owned savings and credit 
+                        cooperative committed to improving the financial well-being of
+                        individuals, families, and businesses. We provide secure savings opportunities, 
+                        affordable loans, and financial guidance that empower our members to achieve their 
+                        personal and economic goals. Through integrity, innovation, and teamwork, we strive to 
+                        build a financially strong and prosperous community.
                         </p>
                         <div className='mission-vision'>
                             <div className='mission'>
                                 <h3>Our Mission</h3>
-                                <p>Democratize Tech education and create more employment 
-                                    opportunities for Youth in Africa</p>
+                                <p>To empower our members through accessible financial services, 
+                                    promoting a culture of saving, responsible borrowing, and 
+                                    sustainable economic growth while delivering
+                                    exceptional service with integrity and professionalism.</p>
 
                             </div>
                             <div className='vision'>
                                 <h3>Our vision</h3>
-                                <p>To be Africa's leading Tech Hub and insititution recognized for excellence and Innovation </p>
+                                <p>To be the leading and most trusted SACCO, transforming lives through innovative financial solutions and creating financially empowered communities.</p>
 
                             </div>
 
@@ -51,7 +55,7 @@ function Aboutus() {
 
                 </div>
                 <div className='about-image'>
-                    <img src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900"'/>
+                    <img src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=90"'/>
 
                 </div>
 
@@ -61,7 +65,7 @@ function Aboutus() {
                 {stats.map((stat,idx)=>(
                     <div key={idx} className='statcard'>
                         <div className='statnumber'>{stat.number}</div>
-                        <div className='label'>{stat.label}</div>
+                        <div className='statlabel'>{stat.label}</div>
                     </div>
                 ))}
 
